@@ -1,0 +1,2 @@
+mongoimport --db bookstore --collection comments --type json --file mongo.comments.json --jsonArray
+mongoimport --host  cluster0-shard-00-02.rctsh.mongodb.net:27017 --db bookstore --collection persons --type json --file bookstore.persons.json --jsonArray --authenticationDatabase admin --ssl --username user2
